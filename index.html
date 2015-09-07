@@ -14,7 +14,7 @@
   <body ng-controller="GitUserSearchController as searchCtrl">
     <div>
       <form class="form-horizontal">
-        <input type="text" >
+        <input type="text" ng-model="searchCtrl.searchTerm">
         <button class="btn" ng-click="searchCtrl.doSearch()">Search</button>
       </form>
       <ul class="list-group">
