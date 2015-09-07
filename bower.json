@@ -19,12 +19,14 @@
     "jquery": "~2.1.4"
   },
   "devDependencies": {
-    "angular-mocks": "~1.3.15",
-    "angular-route": "~1.3.15"
+    "angular-mocks": "~1.4.5",
+    "angular-route": "~1.4.5"
   },
   "homepage": "https://github.com/emily-jane/angularjs-intro",
   "resolutions": {
     "angular": "~1.4.5",
-    "angular-resource": "~1.4.5"
+    "angular-resource": "~1.4.5",
+    "angular-mocks": "~1.4.5",
+    "angular-route": "~1.4.5"
   }
 }
